@@ -25,9 +25,7 @@ Create a folder in your name (Note: Give folder name without any space) and Crea
 ## Creating Source Codes 
 
 In the Terminal, type gedit <filename>.v (ex: gedit alu_32bit.v). 
-
 A Blank Document opens up into which the following source code can be typed down. 
-
 (Note : File name should be with HDL Extension)
 
 ## a)To Verify the Functionality using Test Bench
@@ -119,7 +117,6 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 ### Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
-
 Click the cds.lib file and save the file by clicking on Save option 
 
 ![Screenshot 2024-11-23 153256](https://github.com/user-attachments/assets/50cc5198-2c6f-40b8-9ee3-e2dc59ca52aa)
