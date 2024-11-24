@@ -52,11 +52,9 @@ endcase
 end
 endmodule
 ~~~
-
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
 
 ## Creating Test bench:
-
 Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (alu_32bit_tb_case).
 
 ## Test Bench :
@@ -83,11 +81,9 @@ b=32'h10101010;
 end
 endmodule
 ~~~
-
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
 
 ## Functional Simulation: 
-
 Invoke the cadence environment by type the below commands 
 
 tcsh (Invokes C-Shell) 
@@ -101,7 +97,6 @@ After this you can see the window like below
 ![Screenshot 2024-11-23 153214](https://github.com/user-attachments/assets/9c8c3f58-e3e1-4a24-96bf-88905a0081f6)
 
 ### Fig 2: Invoke the Cadence Environment
-
 To Launch Simulation tool 
 
 •linux:/> nclaunch -new& // “-new” option is used for invoking NCVERILOG for the first time for any design 
@@ -148,7 +143,6 @@ To perform the function simulation, the following three steps are involved Compi
 ### Fig 6: Nclaunch Window
 
 ## Step 1: Compilation:
-
 – Process to check the correct Verilog language syntax and usage 
 
 Inputs: Supplied are Verilog design and test bench codes 
@@ -156,7 +150,6 @@ Inputs: Supplied are Verilog design and test bench codes
 Outputs: Compiled database created in mapped library if successful, generates report else error reported in log file 
 
 ## 	Steps for compilation: 
-
 1. Create work/library directory (most of the latest simulation tools creates automatically)
    
 2. Map the work to library created (most of the latest simulation tools creates automatically)
@@ -172,7 +165,6 @@ Worklib is the directory where all the compiled codes are stored while Snapshot 
 ![Screenshot 2024-11-24 222626](https://github.com/user-attachments/assets/4e0e05d2-f8ba-4e7a-a2a9-ad7ec9552e55)
 
 ### Fig 7: Compiled database in worklib
-
 After compilation it will come under worklib you can see in right side window
 
 Select the test bench and compile it. It will come under worklib. Under Worklib you can see the module and test-bench. 
@@ -190,7 +182,6 @@ Inputs: Top level design / test bench Verilog codes
 Outputs: Elaborate database updated in mapped library if successful, generates report else error reported in log file 
 
 ## 	Steps for elaboration 
-
 – Run the elaboration command with elaborate options 
 
 1.It builds the module hierarchy
@@ -209,7 +200,6 @@ After elaboration the file will come under snapshot. Select the test bench and s
 
 ## Fig 8: Elaboration Launch Option
 ## Step 3: Simulation: 
-
 – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
 Inputs: Compiled and Elaborated top level module name 
@@ -221,17 +211,13 @@ Simulation allow to dump design and test bench signals into a waveform
 Steps for simulation – Run the simulation command with simulator options
 
 ![Screenshot 2024-11-23 153533](https://github.com/user-attachments/assets/0a8756cc-9d4d-4bb1-8b36-b28a220860de)
-
 ## Fig 9: Design Browser window for simulation
 
 ![Screenshot 2024-11-23 153551](https://github.com/user-attachments/assets/7d002369-7ee9-40d8-8936-a8bcef286809)
-
 ## Fig 10:Simulation Waveform Window
 
 ![Screenshot 2024-11-23 153604](https://github.com/user-attachments/assets/cb965ef3-925c-451d-8db9-f0d6e9387716)
-
 ## Fig 11:Simulation Waveform Window
 
 ### Result
-
 The functionality of a 32-bit ALU was successfully verified using a test bench and simulated with the nclaunch tool.
