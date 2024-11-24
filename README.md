@@ -112,7 +112,6 @@ or
 
 •linux:/> nclaunch& // On subsequent calls to NCVERILOG 
 
-
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
 ![Screenshot 2024-11-23 153214](https://github.com/user-attachments/assets/b3d0c210-4ecc-471a-b85b-19c1f3166dd3)
@@ -212,7 +211,6 @@ After elaboration the file will come under snapshot. Select the test bench and s
 ![{9CAB9CC9-BD77-46C1-83A7-EF411EFF728B}](https://github.com/user-attachments/assets/15ae4a1d-8dd8-4db5-a2e1-d6d2de9e3ece)
 
 ## Fig 8: Elaboration Launch Option
-
 ## Step 3: Simulation: 
 
 – Simulate with the given test vectors over a period of time to observe the output behaviour. 
